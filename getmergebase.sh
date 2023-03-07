@@ -2,7 +2,7 @@
 
 set -e
 
-targetRepository="https://github.com/$GITHUB_ACTION_REPOSITORY"
+targetRepository="https://github.com/$GITHUB_REPOSITORY"
 targetBranch="$GITHUB_BASE_REF"
 
 cp packages.json packages.json.bak
